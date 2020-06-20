@@ -53,6 +53,3 @@ Croyance ?
 Boite noire
 Trop compliqué
 Rapport avec la config ?
-
-
-<script type="text/javascript" src="js/cube.js"></script>

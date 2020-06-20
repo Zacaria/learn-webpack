@@ -6,12 +6,12 @@
   "author": "Zacaria <havesomecode@gmail.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "start": "(cd docs && reveal-md Presentation.md -w --theme theme/custom.css --scripts js/cube.js)",
-    "build": "(cd docs && reveal-md Presentation.md --static --theme custom --scripts js/cube.js)",
-    "clean": "rimraf docs/_static",
+    "start": "(cd docs && reveal-md Presentation.md -w --theme theme/css/custom.css --scripts theme/js/cube.js)",
+    "build": "(cd docs && reveal-md Presentation.md --static --theme theme/css/custom.css --scripts theme/js/cube.js --static-dirs=imgs && mv -f _static ..)",
+    "clean": "rimraf _static",
     "deploy": "npm run clean && cd docs && npm run build && ls && npm run copyAssets && npm run surge",
-    "copyAssets": "cp -R docs/imgs docs/_static/ && cp -R docs/theme docs/_static",
-    "surge": "surge -d $npm_package_config_deploy_domain -p docs/_static"
+    "copyAssets": "cp -R docs/imgs _static/_assets && cp -R docs/theme _static/_assets",
+    "surge": "surge -d $npm_package_config_deploy_domain -p _static"
   },
   "config": {
     "deploy_domain": "havesome-webpack.surge.sh"
