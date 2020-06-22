@@ -1,14 +1,27 @@
 ---
 title: Webpack Introduction
 revealOptions:
-    transition: 'slide'
+    transition: 'fade'
 ---
 
 # Webpack
 
+<img src="imgs/logo-webpack.png" style="height: 250px">
+
+FCMS - Zacaria Chtatar - Juin 2020
+
 ---
 
-## Problème
+## Le problème
+
+> Je veux importer du code, du style ou une image dans ma page actuelle <!-- .element: class="fragment" data-fragment-index="1" -->
+
+Cheminement : <!-- .element: class="fragment" data-fragment-index="2" -->
+- rien 🤷‍♂️: des scripts qui se partagent le scope global <!-- .element: class="fragment" data-fragment-index="3" -->
+- (requirejs, browserify) + (grunt/gulp) : mot clé require <!-- .element: class="fragment" data-fragment-index="4" -->
+- webpack : mot clé import <!-- .element: class="fragment" data-fragment-index="5" -->
+
+----
 
 <div style="position:relative;">
 <img src="imgs/webpack-schema.svg" style="height: 350px">
@@ -37,12 +50,6 @@ revealOptions:
 <blockquote class="fragment" data-fragment-index="3">
 Rassembler le code, les assets et les dépendances en un livrable déployable.
 </blockquote>
-
-----
-
-## Graphe de dépendances
-
-<img src="imgs/dep-graph.png">
 
 ---
 
@@ -94,7 +101,7 @@ module.exports = {
 
 ---
 
-## entry
+## `entry`
 
 > Le point d'entrée du graph de dépendances
 
@@ -117,9 +124,15 @@ module.exports = {
 Tout cela avec le mot clé <code>import</code>
 </span>
 
+----
+
+## Graphe de dépendances
+
+<img src="imgs/dep-graph.png">
+
 ---
 
-## module
+## `module`
 
 > Configure les règles de traitement des modules
 
@@ -145,7 +158,7 @@ module.exports = {
 
 ----
 
-## loader
+## `loader`
 
 > Appliquent des transformations au code source d'un module.
 
@@ -167,7 +180,7 @@ module.exports = {
 
 ## Exemple scss
 
-<pre><code data-trim data-line-numbers="4-12">
+<pre><code data-trim data-line-numbers="4-12|5|10|9|8|7">
 module.exports = {
   module: {
     rules: [
@@ -191,7 +204,7 @@ module.exports = {
 
 ---
 
-## plugins
+## `plugins`
 
 > Permettent des opérations plus variées que les loaders en se branchant au cycle de vie du build.
 
@@ -217,7 +230,7 @@ module.exports = {
     }),
     new webpack.DefinePlugin({
       VERSION: JSON.stringify('5fa3b9'),
-    });
+    }),
     new CopyWebpackPlugin([
         {
             context: path.join(paths.appSrc, 'views'),
@@ -235,7 +248,7 @@ module.exports = {
 - Copie de fichiers : [CopyWebpackPlugin](https://webpack.js.org/plugins/copy-webpack-plugin/)
 - Injection de variable d'env : [DefinePlugin](https://webpack.js.org/plugins/define-plugin/)
 - Chunks sur les imports dynamiques : [SplitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/)
-- Import de css dans les composants : [MiniCssExtractPlugin](https://webpack.js.org/plugins/mini-css-extract-plugin/)
+- Extrait le css dans un fichier séparé : [MiniCssExtractPlugin](https://webpack.js.org/plugins/mini-css-extract-plugin/)
 
 Peuvent/doivent être utilisés en conjonction avec leur loader <!-- .element: class="fragment" data-fragment-index="1" -->
 
@@ -276,7 +289,7 @@ module.exports = {
 
 ---
 
-## output
+## `output`
 
 > Définis les chemins de sortie des résultats
 
@@ -295,10 +308,18 @@ module.exports = {
 };
 </code></pre>
 
-⚠️publicPath doit contenir l'url du CDN si besoin
+⚠️ publicPath doit contenir l'url du CDN si besoin
+
+----
+
+### `publicPath`
+
+Inséré par webpack lors de l'injection des assets dans le html
+
+<img src="imgs/publicPath.png">
 
 ---
-# Sources
+## Source
 
 La doc : [https://webpack.js.org/concepts/](https://webpack.js.org/concepts/)
 
