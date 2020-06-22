@@ -6,7 +6,7 @@
   "author": "Zacaria <havesomecode@gmail.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "start": "(cd docs && reveal-md Presentation.md -w --theme theme/css/custom.css --scripts theme/js/cube.js)",
+    "start": "(cd docs && reveal-md Presentation.md -w --theme theme/css/custom.css --scripts theme/js/cube.js --highlight-theme zenburn)",
     "build": "(cd docs && reveal-md Presentation.md --static --theme theme/css/custom.css --scripts theme/js/cube.js --static-dirs=imgs && mv -f _static ..)",
     "clean": "rimraf _static",
     "deploy": "npm run clean && cd docs && npm run build && ls && npm run copyAssets && npm run surge",

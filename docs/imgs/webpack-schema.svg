@@ -9,7 +9,7 @@
                 <use fill-opacity="0.1" fill="#526B78" fill-rule="evenodd" xlink:href="#path-1"></use>
                 <rect stroke="#526B78" stroke-width="4" x="-2" y="-2" width="84" height="84" rx="3"></rect>
             </g>
-            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">
+            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#526B78">
                 <tspan x="18.891" y="46.7096774">.png</tspan>
             </text>
         </g>
@@ -18,7 +18,7 @@
                 <use fill-opacity="0.1" fill="#526B78" fill-rule="evenodd" xlink:href="#path-2"></use>
                 <rect stroke="#526B78" stroke-width="4" x="-2" y="-2" width="84" height="84" rx="3"></rect>
             </g>
-            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">
+            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#526B78">
                 <tspan x="22.532" y="46.7096774">.css</tspan>
             </text>
         </g>
@@ -27,7 +27,7 @@
                 <use fill-opacity="0.1" fill="#526B78" fill-rule="evenodd" xlink:href="#path-3"></use>
                 <rect stroke="#526B78" stroke-width="4" x="-2" y="-2" width="84" height="84" rx="3"></rect>
             </g>
-            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">
+            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#526B78">
                 <tspan x="21.817" y="46.7096774">.jpg</tspan>
             </text>
         </g>
@@ -36,7 +36,7 @@
                 <use fill-opacity="0.1" fill="#526B78" fill-rule="evenodd" xlink:href="#path-4"></use>
                 <rect stroke="#526B78" stroke-width="4" x="-2" y="-2" width="84" height="84" rx="3"></rect>
             </g>
-            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">
+            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#526B78">
                 <tspan x="29" y="46.7096774">.js</tspan>
             </text>
         </g>
@@ -54,7 +54,7 @@
                 <use fill-opacity="0.1" fill="#526B78" fill-rule="evenodd" xlink:href="#path-5"></use>
                 <rect stroke="#526B78" stroke-width="4" x="-2" y="-2" width="66" height="66" rx="3"></rect>
             </g>
-            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">
+            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#526B78">
                 <tspan x="12.817" y="38">.jpg</tspan>
             </text>
         </g>
@@ -63,7 +63,7 @@
                 <use fill-opacity="0.1" fill="#526B78" fill-rule="evenodd" xlink:href="#path-6"></use>
                 <rect stroke="#526B78" stroke-width="4" x="-2" y="-2" width="66" height="66" rx="3"></rect>
             </g>
-            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">
+            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#526B78">
                 <tspan x="9.891" y="38">.png</tspan>
             </text>
         </g>
@@ -79,7 +79,7 @@
                 <use fill-opacity="0.1" fill="#526B78" fill-rule="evenodd" xlink:href="#path-7"></use>
                 <rect stroke="#526B78" stroke-width="4" x="-2" y="-2" width="66" height="66" rx="3"></rect>
             </g>
-            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">
+            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#526B78">
                 <tspan x="8.076" y="38">.sass</tspan>
             </text>
         </g>
@@ -88,7 +88,7 @@
                 <use fill-opacity="0.1" fill="#526B78" fill-rule="evenodd" xlink:href="#path-8"></use>
                 <rect stroke="#526B78" stroke-width="4" x="-2" y="-2" width="66" height="66" rx="3"></rect>
             </g>
-            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">
+            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#526B78">
                 <tspan x="8.076" y="38">.sass</tspan>
             </text>
         </g>
@@ -115,7 +115,7 @@
                 <use fill-opacity="0.1" fill="#526B78" fill-rule="evenodd" xlink:href="#path-9"></use>
                 <rect stroke="#526B78" stroke-width="4" x="-2" y="-2" width="66" height="66" rx="3"></rect>
             </g>
-            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">
+            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#526B78">
                 <tspan x="20" y="38">.js</tspan>
             </text>
         </g>
@@ -131,7 +131,7 @@
                 <use fill-opacity="0.1" fill="#526B78" fill-rule="evenodd" xlink:href="#path-10"></use>
                 <rect stroke="#526B78" stroke-width="4" x="-2" y="-2" width="66" height="66" rx="3"></rect>
             </g>
-            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">
+            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#526B78">
                 <tspan x="8.076" y="38">.sass</tspan>
             </text>
         </g>
@@ -147,7 +147,7 @@
                 <use fill-opacity="0.1" fill="#526B78" fill-rule="evenodd" xlink:href="#path-11"></use>
                 <rect stroke="#526B78" stroke-width="4" x="-2" y="-2" width="66" height="66" rx="3"></rect>
             </g>
-            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">
+            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#526B78">
                 <tspan x="15.38" y="38">.cjs</tspan>
             </text>
         </g>
@@ -175,7 +175,7 @@
                 <use fill-opacity="0.1" fill="#526B78" fill-rule="evenodd" xlink:href="#path-12"></use>
                 <rect stroke="#526B78" stroke-width="4" x="-2" y="-2" width="66" height="66" rx="3"></rect>
             </g>
-            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">
+            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#526B78">
                 <tspan x="10.947" y="38">.hbs</tspan>
             </text>
         </g>
@@ -189,7 +189,7 @@
                 <use fill-opacity="0.1" fill="#526B78" fill-rule="evenodd" xlink:href="#path-13"></use>
                 <rect stroke="#526B78" stroke-width="4" x="-2" y="-2" width="66" height="66" rx="3"></rect>
             </g>
-            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">
+            <text font-family="'Source Sans Pro', sans-serif" font-size="22" font-weight="500" fill="#526B78">
                 <tspan x="20" y="38">.js</tspan>
             </text>
         </g>
